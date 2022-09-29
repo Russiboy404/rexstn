@@ -2,29 +2,7 @@ import os
 import time
 import sys
 import requests
-def chk():
-	
-    uuid = str(os.geteuid()) + str(os.getlogin())
-    id = '-'.join(uuid)
-    print '\x1b[37;1mIDY XOT : ' + id
-    
-    try:
-        httpCaht = requests.get('https://github.com/Russiboy404/rexstn/tree/main').text
-        if id in httpCaht:
-            print '\x1b[92mDLY MN IDIY ACTIVA.........'
-            msg = str(os.geteuid())
-            time.sleep(2)
-        else:
-            print '\x1b[91mBarezm Id kat active nya Tkaya bo Active krdn nama bnera bo dark.......'
-            time.sleep(2)
-            sys.exit()
-    except:
-        sys.exit()
-        if name == '__main__':
-            print logo
-            chk()
-            
-chk()
+
 os.system("clear")
 
 print('''\033[91m
