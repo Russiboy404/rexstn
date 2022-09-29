@@ -9,13 +9,13 @@ def chk():
     print '\x1b[37;1mIDY XOT : ' + id
     
     try:
-        httpCaht = requests.get('https://github.com/Russiboy404/rexstn/new/main').text
+        httpCaht = requests.get('https://github.com/Russiboy404/rexstn/tree/main').text
         if id in httpCaht:
             print '\x1b[92mDLY MN IDIY ACTIVA.........'
             msg = str(os.geteuid())
             time.sleep(2)
         else:
-            print '\x1b[91mBarezm Id kat active nya Tkaya bo Active krdn nama bnera bo telegram @sell_pubg9.......'
+            print '\x1b[91mBarezm Id kat active nya Tkaya bo Active krdn nama bnera bo dark.......'
             time.sleep(2)
             sys.exit()
     except:
