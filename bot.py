@@ -2,13 +2,13 @@ import os, sys
 try:
 	import requests,os,names,json,colorama,secrets,random,pyfiglet,OneClick
 except:
-	os.system("pip install requests")
-	os.system("pip install names")
-	os.system("pip install json")
-	os.system("pip install colorama")
-	os.system("pip install secrets")
-	os.system("pip install random")
-	os.system("pip install pyfiglet")
-	os.system("pip install OneClick")
-	os.system("pip install stdiomask")
+	os.system("pkg install requests")
+	os.system("pkg install names")
+	os.system("pkg install json")
+	os.system("pkg install colorama")
+	os.system("pkg install secrets")
+	os.system("pkg install random")
+	os.system("pkg install pyfiglet")
+	os.system("pkg install OneClick")
+	os.system("pkg install stdiomask")
 	print("-- Done --")
